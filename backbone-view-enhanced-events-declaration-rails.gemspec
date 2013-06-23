@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'backbone/view/enhanced/events/declaration/rails/version'
+require 'backbone-view-enhanced-events-declaration-rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "backbone-view-enhanced-events-declaration-rails"
-  spec.version       = Backbone::View::Enhanced::Events::Declaration::Rails::VERSION
+  spec.version       = BackboneViewEnhancedEventsDeclarationRails::VERSION
   spec.authors       = ["Alexander Kaupanin"]
   spec.email         = ["kaupanin@gmail.com"]
   spec.description   = %q{A Rails 3 asset pipeline gem for Backbone.View.EnhancedEventsDeclaration mixin}
